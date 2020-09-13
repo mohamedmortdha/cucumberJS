@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Feature",
+    "line": 1,
+    "name": "todos",
+    "tags": [],
+    "uri": "/home/bambouna/SharingCloud/cucumberJS/features/todo.feature",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "I can categorize some todos",
+        "tags": [
+          {
+            "line": 31,
+            "name": "@categorizetodo"
+          }
+        ],
+        "id": "todos;i-can-categorize-some-todos",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Page Should Contain Element input text description",
+            "result": {
+              "status": "passed",
+              "duration": 1528
+            },
+            "isBackground": true,
+            "line": 4,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Submit a todo \"Choisir un livre intéressant\"",
+            "result": {
+              "status": "passed",
+              "duration": 650
+            },
+            "line": 33,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Page Should Not Contain Element category \"Personnel\" and \"Professionel\"",
+            "result": {
+              "status": "passed",
+              "duration": 286
+            },
+            "line": 34,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Select category \"Personnel\"",
+            "result": {
+              "status": "passed",
+              "duration": 22
+            },
+            "line": 35,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Submit a todo \"Marcher et faire du vélo avec mon chien\"",
+            "result": {
+              "status": "passed",
+              "duration": 632
+            },
+            "line": 36,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "First Element Text Shoould Be category \"Personnel\"",
+            "result": {
+              "status": "passed",
+              "duration": 279
+            },
+            "line": 37,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Submit a todo \"Faire un câlin avec mon chat\"",
+            "result": {
+              "status": "passed",
+              "duration": 638
+            },
+            "line": 38,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Secound Element Text Should Be category \"Personnel\"",
+            "result": {
+              "status": "passed",
+              "duration": 271
+            },
+            "line": 39,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Select category \"Professionnel\"",
+            "result": {
+              "status": "passed",
+              "duration": 12
+            },
+            "line": 40,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "Submit a todo \"Automatiser un cas de test de plus\"",
+            "result": {
+              "status": "passed",
+              "duration": 647
+            },
+            "line": 41,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Third Element Text Should Be category \"Professionnel\"",
+            "result": {
+              "status": "passed",
+              "duration": 278
+            },
+            "line": 42,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After",
+            "result": {
+              "status": "passed",
+              "duration": 54
+            },
+            "hidden": true,
+            "match": {
+              "location": "/home/bambouna/SharingCloud/cucumberJS/node_modules/cucumber/lib/index.js:176"
+            }
+          }
+        ]
+      }
+    ],
+    "id": "todos"
+  }
+]

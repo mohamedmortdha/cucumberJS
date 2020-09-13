@@ -1,0 +1,25 @@
+{
+  "name": "cucumberjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cucumber-js",
+    "testrep": "./node_modules/.bin/cucumber-js  --tags @categorizetodo --format json:./report/test.json  "
+  },
+  "dependencies": {
+    "cbt_tunnels": "^0.1.0",
+    "chromedriver": "^85.0.1",
+    "cucumber": "^2.3.1",
+    "moment": "^2.27.0",
+    "parallel-cucumber": "^1.0.1",
+    "selenium-webdriver": "^3.4.0"
+  },
+  "devDependencies": {
+    "cucumber-html-report": "^0.6.5",
+    "cucumber-html-reporter": "^2.0.3",
+    "request": "^2.88.2"
+  },
+  "author": "mohamed mortadha guedhami",
+  "license": "ISC"
+}
